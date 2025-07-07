@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CRM WEB APPLICATION</title>
+  <link rel="stylesheet" href="crm.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Customer Relationship Manager</h2>
+
+    <form id="customerForm">
+      <input type="text" id="name" placeholder="Enter customer name" required />
+      <input type="email" id="email" placeholder="Enter customer mail" required />
+      <button type="submit">Save Customer</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>sr.no</sr></th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="customerTableBody"></tbody>
+    </table>
+  </div>
+
+  <script src="crm.js"></script>
+</body>
+</html>
